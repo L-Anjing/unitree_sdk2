@@ -19,3 +19,6 @@ target_link_libraries(go2_video_client unitree_sdk2)
 
 add_executable(go2_vui_client go2_vui_client.cpp)
 target_link_libraries(go2_vui_client unitree_sdk2)
+
+add_executable(go2_record_odom_csv go2_sport_state_reader.cpp)
+target_link_libraries(go2_record_odom_csv unitree_sdk2)
